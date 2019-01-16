@@ -1,13 +1,12 @@
 # Project Luther Proposal - Fate of the STARmeter
 
-### What makes an actor famous?
-
 Analysis: Torin Rettig
+
+### What makes an actor famous?
 
 ### Proposal
 An actor's fame, more than any other factor, determines the fate of their career. More than the producers or director, having a popular actor in your production can make the difference between a hit and a bomb so being popular makes a huge difference in what roles an actor can take. The IMDb STARmeter approximates an actor's fame by tracking interest in a particular actor on their site. The more traffic for a particular actor on the site, the higher the STARmeter, and as IMDb is the premier movie and TV industry database, STARmeter provides a good estimation for an actor's actual popularity.
 But what are the factors that most strongly correlate with an actor's fame? Being in a big budget tentpole film? Having numerous articles written about them, the performance of their last film? Instagram followers? We will look at these factors and others to determine which have the biggest effect on an actor's STARmeter rating and use it to create a model to predict what their STARmeter rating would be, given the relevant factors in play. 
-
 
 ### Assumptions
 * There is a vast array of potential factors to consider. To reduce the amount of features in the initial scrape and analysis we're going to assume that the last major production they were in will have the most influence, so we will look at several details of that last production as a significant number of the factors involved.
