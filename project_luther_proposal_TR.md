@@ -25,21 +25,21 @@ But what are the factors that most strongly correlate with an actor's fame? Bein
 * Data Sources: IMDb, Twitter, Instagram
 
 ### Features
-* Age (IMDb) - <Integer>
-* Height (IMDb) - <Integer>
-* Gender (IMDb?) - <Categorical>
-* Time since last major release (IMDb) <Datetime>
-* MOVIEmeter rating of last film (IMDb) <Integer>
-* Production cost of last film (IMDb) <Integer>
-* US gross of last film released (IMDb) <Integer>
-* Worldwide gross of last film released (IMDb) <Integer>
-* Articles written about actor (IMDb) <Integer>
-* Time since last article written (IMDb) <Datetime>
-* Number of images on IMDb (IMDb) <Integer>
-* Instagram followers (IMDb + Instagram) <Integer>
-* Twitter followers (IMDb + Twitter) <Integer>
-* MOVIEmeter rating of actor's "Known For" production (IMDb) <Integer>
-* Ratings Breakdown of last film (IMDB) <Float>
+* Age 
+* Height 
+* Gender 
+* Time since last major release 
+* MOVIEmeter rating of last film 
+* Production cost of last film 
+* US gross of last film released 
+* Worldwide gross of last film released 
+* Articles written about actor 
+* Time since last article written 
+* Number of images on IMDb 
+* Instagram followers 
+* Twitter followers 
+* MOVIEmeter rating of actor's "Known For" production 
+* Ratings Breakdown of last film    
 
 ### Prediction
 STARmeter rating for a given actor
