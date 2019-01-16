@@ -3,8 +3,8 @@
 # What makes an actor famous?
 
 ### Proposal
-An actor's fame, more than any other factor, determines the fate of their career. More than the producers or director, having a popular actor in your production can make the difference between a hit and a bomb so being popular makes a huge difference in what roles an actor can take. The IMDb STARmeter approximates an actor's fame by tracking interest in a particular actor on their site. The more traffic for a particular actor on the site, the higher the STARmeter, and as IMDb is the premier movie and TV industry database, STARmeter provides a good estimation for an actor's actual popularity.<br>
-<br>
+An actor's fame, more than any other factor, determines the fate of their career. More than the producers or director, having a popular actor in your production can make the difference between a hit and a bomb so being popular makes a huge difference in what roles an actor can take. The IMDb STARmeter approximates an actor's fame by tracking interest in a particular actor on their site. The more traffic for a particular actor on the site, the higher the STARmeter, and as IMDb is the premier movie and TV industry database, STARmeter provides a good estimation for an actor's actual popularity.
+
 But what are the factors that most strongly correlate with an actor's fame? Being in a big budget tentpole film? Having numerous articles written about them, the performance of their last film? Instagram followers? We will look at these factors and others to determine which have the biggest effect on an actor's STARmeter rating and use it to create a model to predict what their STARmeter rating would be, given the relevant factors in play. 
 
 
@@ -14,32 +14,33 @@ But what are the factors that most strongly correlate with an actor's fame? Bein
 * Finally, as points of interest, we will look at factors that seem neutral, but that may have more affect than we would expect. These are factors such as age, height and gender. 
 
 ###  Methodology
-* Gather actor STARmeter ratings
-* Gather actor and  available through IMDb and other sites.
+* Gather collection of 1000+  actor STARmeter ratings
+* Gather actor details  available through IMDb and other sites.
 * Gather relevant details about the actor's latest film/TV production.
 
 ### Data
-* Gather the top 1000+ actors' current STARmeter ratings
-* Gather additional information about that actor and their recent productions to determine which have the greatest affect on their STARmeter rating.
-* Build a linear regression model to determine factors that most influence STARmeter.
+* Target - Actor's STARmeter rating.
+* Features - Actor personal details and data relating to their overall popularity.
+* Features - Movie/TV production details relating to the performance of the actor's latest film/TV production.
+* Features - Number of followers for each actor on Twitter and Instagram.
 * Data Sources: IMDb, Twitter, Instagram
 
 ### Features
-* Age (IMDb) - <Integer>
-* Height (IMDb) - <Integer>
-* Gender (IMDb?) - <Categorical>
-* Time since last major release (IMDb) <Datetime>
-* MOVIEmeter rating of last film (IMDb) <Integer>
-* Production cost of last film (IMDb) <Integer>
-* US gross of last film released (IMDb) <Integer>
-* Worldwide gross of last film released (IMDb) <Integer>
-* Articles written about actor (IMDb) <Integer>
-* Time since last article written (IMDb) <Datetime>
-* Number of images on IMDb (IMDb) <Integer>
-* Instagram followers (IMDb + Instagram) <Integer>
-* Twitter followers (IMDb + Twitter) <Integer>
-* MOVIEmeter rating of actor's "Known For" production (IMDb) <Integer>
-* Ratings Breakdown of last film (IMDB) <Float>
+* Age (IMDb) - (Integer)
+* Height (IMDb) - (Integer)
+* Gender (IMDb) - (Categorical)
+* Time since last major release (IMDb) - (Datetime)
+* MOVIEmeter rating of last film (IMDb) - (Integer)
+* Production cost of last film (IMDb) - (Integer)
+* US gross of last film released (IMDb) - (Integer)
+* Worldwide gross of last film released (IMDb) - (Integer)
+* Articles written about actor (IMDb) - (Integer)
+* Time since last article written (IMDb) - (Datetime)
+* Number of images on IMDb (IMDb) - (Integer)
+* Instagram followers (IMDb + Instagram) - (Integer)
+* Twitter followers (IMDb + Twitter) - (Integer)
+* MOVIEmeter rating of actor's "Known For" production (IMDb) - (Integer)
+* Ratings Breakdown of last film (IMDB) - (Float)
 
 ### Prediction
 STARmeter rating for a given actor
