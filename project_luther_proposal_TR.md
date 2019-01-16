@@ -18,6 +18,7 @@ But what are the factors that most strongly correlate with an actor's fame? Bein
 * Gather collection of 1000+  actor STARmeter ratings
 * Gather actor details  available through IMDb and other sites.
 * Gather relevant details about the actor's latest film/TV production.
+* Build a linear regression to determine the factors that most greatly affect STARmeter rating.
 
 ### Data
 * Target - Actor's STARmeter rating.
