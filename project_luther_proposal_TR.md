@@ -2,7 +2,7 @@
 
 Analysis: Torin Rettig
 
-### What makes an actor famous?
+### What makes an actor popular?
 
 ### Proposal
 An actor's fame, more than any other factor, determines the fate of their career. More than the producers or director, having a popular actor in your production can make the difference between a hit and a bomb so being popular makes a huge difference in what roles an actor can take. The IMDb STARmeter approximates an actor's fame by tracking interest in a particular actor on their site. The more traffic for a particular actor on the site, the higher the STARmeter, and as IMDb is the premier movie and TV industry database, STARmeter provides a good estimation for an actor's actual popularity.
@@ -46,3 +46,8 @@ But what are the factors that most strongly correlate with an actor's fame? Bein
 
 ### Prediction
 STARmeter rating for a given actor
+
+### Stretch Goals
+
+- Predict actor's time in the top 10/100
+- Predict ROI based on STARmeter rating of principals 
