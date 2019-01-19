@@ -28,21 +28,23 @@ But what are the factors that most strongly correlate with an actor's fame? Bein
 * Data Sources: IMDb, Twitter, Instagram
 
 ### Features
-* Age (IMDb) - (Integer)
-* Height (IMDb) - (Integer)
-* Gender (IMDb) - (Categorical)
-* Time since last major release (IMDb) - (Datetime)
-* MOVIEmeter rating of last film (IMDb) - (Integer)
-* Production cost of last film (IMDb) - (Integer)
-* US gross of last film released (IMDb) - (Integer)
-* Worldwide gross of last film released (IMDb) - (Integer)
-* Articles written about actor (IMDb) - (Integer)
-* Time since last article written (IMDb) - (Datetime)
-* Number of images on IMDb (IMDb) - (Integer)
-* Instagram followers (IMDb + Instagram) - (Integer)
-* Twitter followers (IMDb + Twitter) - (Integer)
-* MOVIEmeter rating of actor's "Known For" production (IMDb) - (Integer)
-* Ratings Breakdown of last film (IMDB) - (Float)
+1. Time since last major release (IMDb) - (Datetime)
+2. MOVIEmeter rating of last film (IMDb) - (Integer)
+3. US gross of last film released (IMDb) - (Integer)
+4. Opening weekend gross of last film released (IMDB) - (Integer)
+5. Production cost of last film (IMDb) - (Integer)
+6. Worldwide gross of last film released (IMDb) - (Integer)
+7. Instagram followers (IMDb + Instagram) - (Integer)
+8. Twitter followers (IMDb + Twitter) - (Integer)
+9. Ratings Breakdown of last film (IMDB) - (Float)
+10. Articles written about actor (IMDb) - (Integer)
+11. MOVIEmeter rating of actor's "Known For" production (IMDb) - (Integer)
+12. Ratings Breakdown of last film (IMDB) - (Float)
+13. Time since last article written (IMDb) - (Datetime)
+14. Number of images on IMDb (IMDb) - (Integer)
+15. Age (IMDb) - (Integer)
+16. Height (IMDb) - (Integer)
+17. Gender (IMDb) - (Categorical)
 
 ### Prediction
 STARmeter rating for a given actor
@@ -51,3 +53,14 @@ STARmeter rating for a given actor
 
 - Predict actor's time in the top 10/100
 - Predict ROI based on STARmeter rating of principals 
+
+### Additional Features
+
+- Last Film MOVIEmeter Trend (IMDb) - (Integer)
+- Last Film Gross Trend -Weekend- (IMDb) - (Integer)
+- Last Film Gross Trend -Daily- (IMDb) - (Integer)
+- Last Film Gross Trend -To Date- (IMDb) - (Integer)
+- Last Film Opening Month (IMDb) - (Integer) 
+- Last Film Opening Weekend Theater Count (IMDb) - (Integer)
+- Award Nominations (IMDb) - (Integer)
+- Awards Won (IMDb) - (Integer)
